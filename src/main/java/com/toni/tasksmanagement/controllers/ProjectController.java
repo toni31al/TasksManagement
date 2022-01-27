@@ -74,7 +74,7 @@ public class ProjectController {
         model.addAttribute("project",this.pService.getProjectById(projectID));
         return "editProj";
     }
-
+    //update project
     @PutMapping("/project/{id}")
     public String editProject(@Valid @ModelAttribute("project") Project project, BindingResult result){
         if(result.hasErrors()){
