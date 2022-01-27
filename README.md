@@ -1,2 +1,2 @@
 # TasksManagement
-Project for managment of prject tasks
+Project for management of users tasks
